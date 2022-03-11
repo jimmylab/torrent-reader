@@ -1,7 +1,7 @@
 {
-  "name": "electron-vue-template",
+  "name": "torrent-reader",
   "version": "0.1.0",
-  "description": "A minimal Electron + Vue application",
+  "description": "Torrent file viewer",
   "main": "build/main/main.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
@@ -10,22 +10,25 @@
     "build:mac": "node scripts/build.js && electron-builder -c config/electron-builder.json --mac",
     "build:linux": "node scripts/build.js && electron-builder -c config/electron-builder.json --linux"
   },
-  "repository": "https://github.com/deluze/electron-vue-template",
+  "template": "https://github.com/deluze/electron-vue-template",
+  "repository": "https://github.com/jimmylab/torrent-reader",
   "author": {
-    "name": "Deluze",
-    "url": "https://github.com/Deluze"
+    "name": "JimmyLiu",
+    "url": "https://github.com/jimmylab"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.1",
     "@vue/cli": "^4.5.15",
     "chalk": "^4.1.2",
     "chokidar": "^3.5.3",
-    "electron": "^16.0.7",
+    "electron": "^17.1.0",
     "electron-builder": "^22.14.5",
+    "postcss-scss": "^4.0.3",
+    "sass": "^1.49.8",
+    "ts-node": "^10.5.0",
     "typescript": "^4.5.5",
-    "vite": "^2.7.13"
-  },
-  "dependencies": {
-    "vue": "^3.2.27"
+    "vite": "^2.7.13",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0"
   }
 }

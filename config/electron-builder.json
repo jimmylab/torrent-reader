@@ -1,16 +1,11 @@
 {
-    "appId": "com.electron.app",
+    "appId": "com.torrent.reader",
+    "compression": "store",
     "directories": {
         "output": "dist"
     },
-    "nsis": {
-        "oneClick": false,
-        "perMachine": false,
-        "allowToChangeInstallationDirectory": true,
-        "shortcutName": "Electron App"
-    },
     "win": {
-        "target": "nsis"
+        "target": ["dir"]
     },
     "linux":  {
         "target": ["snap"]

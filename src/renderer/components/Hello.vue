@@ -1,6 +1,6 @@
 <template>
   <div id="hello">
-    <img src="http://vuejs.org/images/logo.png">
+    <img src="/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>

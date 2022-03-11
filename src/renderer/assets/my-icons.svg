@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="60" height="60" viewBox="-30 -30 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style>
+  .icon {
+    display: none;
+    fill: #fff;
+    stroke: none;
+  }
+  .icon:target { display: inline; }
+  </style>
+  <g id="cross" class="icon">
+    <path d="M-6,-6 L-5.29,-6 L0,-1 L5.29,-6 L6,-6 L6,-5.29 L1,0 L6,5.29 L6,6 L5.29,6 L0,1 L-5.29,6 L-6,6 L-6,5.29 L-1,0 L-6,-5.29"/>
+  </g>
+  <g id="square" class="icon">
+    <path d="M-6,-6 L6,-6 L6,6 L-6,6 L-6,-6 L-5,-5 L-5,5 L5,5 L5,-5 L-5,-5"/>
+  </g>
+  <g id="square-stack" class="icon">
+    <path d="M-6,-4 L4,-4 L4,6 L-6,6 L-6,-4 L-5,-3 L-5,5 L3,5 L3,-3 L-5,-3 M-4,-4 L-4,-6 L6,-6 L6,4 L4,4 L4,3 L5,3 L5,-5 L-3,-5 L-3,-4 L-4,-4"/>
+  </g>
+  <g id="dash" class="icon">
+    <path d="M-6,2 L6,2 L6,1 L-6,1"/>
+  </g>
+</svg>

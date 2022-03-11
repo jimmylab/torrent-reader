@@ -1,0 +1,18 @@
+$iconList: (
+  cross,
+  square,
+  square-stack,
+  dash,
+);
+
+.icon {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@each $iconName in $iconList {
+  .icon-#{$iconName} {
+    background-image: url('/assets/my-icons.svg##{$iconName}');
+  }
+}
